@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: "Gabarito", sans-serif;
+}
+
+.Navbar__s1__title{
+    color: #A435F0;
+}
+
+.Navbar{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+}
+
+.Navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.Navbar__s2 input{
+    border: none;
+    gap: 3px;
+    font-size: 16px;
+    width: 100%;
+    
+}
+.Navbar__s2 input:focus{
+    outline: none;
+}
+
+.Navbar__s3{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+.category{
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content:space-around;
+}
+
+.category p{
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.sale_image img{
+    width: 100%;
+}
+
+.card img{
+    width: 250px;
+    height: 50%;
+}
+
+.card{
+    justify-content: space-between;
+    width: 270px;
+    
+}
+.container{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Recommended{
+    margin: 10px;
+}
+
+.tcontainer p{
+border: solid grey 1px;
+flex-grow: 1;
+padding:   10px;
+flex-basis: 25%;
+padding: 10px;
+flex-wrap: wrap;
+}
+
+.tcontainer{
+    display: flex;
+    gap: 10px
+    ;
+    flex-basis: 25%;
+flex-wrap: wrap;
+padding: 10px;    
+}
+
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer__1{
+   
+    margin: 10px;
+    
+    color: white;
+    background-color: black;
+    display: flex;
+    
+
+}
+.footer__1 p{
+    padding: 10px;
+}
+.footer__1-s1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.footer__1-s2{
+    margin-top: 20px;
+}
+
+.footer__2{
+     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
