@@ -77,6 +77,7 @@ body{
     padding: 10px;
     border-bottom: solid black 1px;
     justify-content:space-around;
+    
 }
 
 .category p{
@@ -84,6 +85,15 @@ body{
     background-color: blueviolet;
     padding: 10px;
     border-radius: 20px;
+    cursor: pointer;
+    border: solid blueviolet 1px;
+}
+.category :hover{
+border: solid blueviolet 1px;
+background-color: white;
+color: black;
+transition-duration: 1s;
+
 }
 
 .sale_image img{
@@ -101,8 +111,22 @@ body{
     left: 10%;
     position: absolute;
     padding: 10px;
+    opacity: 0;
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
+@keyframes zoom{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
 
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
 .card img{
     width: 250px;
     height: 50%;
