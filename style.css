@@ -53,6 +53,9 @@ body{
     padding: 10px;
     align-items: center;
 }
+.Navbar__s4{
+    display: none;
+}
 
 .mylearning{
     position: relative;
@@ -128,13 +131,14 @@ transition-duration: 1s;
     }
 }
 .card img{
-    width: 250px;
+    width: 100%;
     height: 50%;
 }
 
 .card{
-    justify-content: space-between;
-    width: 270px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
     
 }
 .container{
@@ -210,4 +214,24 @@ padding: 10px;
     color: white;
     background-color: black;
     padding: 30px;
+}
+
+/* Media Quries */
+@media screen and (max-width:800px){
+    body{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        .card{
+            flex-basis: 40%;
+        }
+        .category , .Navbar__s2, .Navbar__s3{
+            display: none;
+        }
+.Navbar__s4{
+    display: block;
+}
+    }
 }
