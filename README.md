@@ -21,7 +21,7 @@ This project is a front-end clone of the **Udemy** platform, designed using **HT
 ## **Installation**
 To run this project locally:
 1. Clone this repository:  
-   `git clone https://github.com/your-username/udemy-clone.git`
+   `https://varnika1221.github.io/Udemy---clone/`
 2. Open the `index.html` file in your browser to view the website.
 
 
